@@ -26,8 +26,18 @@ const NavigationBar = (props) => {
         </NavLink>
       </div>
       <div className="nav-link-wrapper">
+        <NavLink exact to="/hide-me-hook" activeClassName="nav-link-active">
+          Hide Me Hook
+        </NavLink>
+      </div>
+      <div className="nav-link-wrapper">
         <NavLink exact to="/align-me" activeClassName="nav-link-active">
           Align Me
+        </NavLink>
+      </div>
+      <div className="nav-link-wrapper">
+        <NavLink exact to="/alignment-hook" activeClassName="nav-link-active">
+          Alignment-Hook
         </NavLink>
       </div>
       <div className="nav-link-wrapper">
@@ -36,8 +46,18 @@ const NavigationBar = (props) => {
         </NavLink>
       </div>
       <div className="nav-link-wrapper">
+        <NavLink exact to="/incrementer-hook" activeClassName="nav-link-active">
+          Incrementer Hook
+        </NavLink>
+      </div>
+      <div className="nav-link-wrapper">
         <NavLink exact to="/font-toggle" activeClassName="nav-link-active">
           Font Toggle
+        </NavLink>
+      </div>
+      <div className="nav-link-wrapper">
+        <NavLink exact to="/font-toggle-hook" activeClassName="nav-link-active">
+          Font Toggle Hook
         </NavLink>
       </div>
       <div className="nav-link-wrapper">
@@ -46,8 +66,18 @@ const NavigationBar = (props) => {
         </NavLink>
       </div>
       <div className="nav-link-wrapper">
+        <NavLink exact to="/color-me-hook" activeClassName="nav-link-active">
+          Color Me Hook
+        </NavLink>
+      </div>
+      <div className="nav-link-wrapper">
         <NavLink exact to="/clock" activeClassName="nav-link-active">
           Clock
+        </NavLink>
+      </div>
+      <div className="nav-link-wrapper">
+        <NavLink exact to="/clock-hook" activeClassName="nav-link-active">
+          Clock Hook
         </NavLink>
       </div>
     </div>
